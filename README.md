@@ -1,5 +1,7 @@
 # LIVE CONTENT for iOS
 
+[![Build unsigned IPA](https://github.com/ACOPS1206/LIVE-CONTENT-iOS/actions/workflows/build.yml/badge.svg)](https://github.com/ACOPS1206/LIVE-CONTENT-iOS/actions/workflows/build.yml)
+
 Create a custom Live Activity with your own text, SF Symbol, accent color, and a tiny photo thumbnail. The activity appears on the Lock Screen and, on supported iPhones, in the Dynamic Island.
 
 ## Features
@@ -34,4 +36,3 @@ ActivityKit limits the complete dynamic state to roughly 4 KB. Selected photos a
 ## GitHub Actions
 
 Every push to `main` and every manual workflow dispatch builds an unsigned IPA. Download `LiveContent-unsigned-ipa` from the workflow run's Artifacts section. The IPA still needs signing before installation.
-
