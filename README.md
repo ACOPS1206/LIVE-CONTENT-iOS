@@ -11,12 +11,14 @@ Create a custom Live Activity with your own text, SF Symbol, accent color, and a
 - Photo picker with automatic thumbnail compression
 - Multiple SF Symbols and accent colors
 - Lock Screen, compact, minimal, and expanded Dynamic Island layouts
+- Native Liquid Glass controls on iOS 26 with a material fallback on iOS 17–25
+- HIG-aligned 44-point controls, Dynamic Type, and VoiceOver labels
 - Unsigned IPA build from GitHub Actions
 
 ## Requirements
 
 - iOS 17 or later
-- Xcode 16 or later
+- Xcode 26 or later to compile the Liquid Glass APIs
 - A physical device for full Live Activity testing
 
 ## Build locally
